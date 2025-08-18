@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Form</title>
+</head>
+<body>
+  <h1>Mfano wa formu maalum kwa kutumia HTML na Javascript</>
+  <h2>Steps</h2>
+  <ol>
+    <li> Jaza formu hii kwa Makini</li>
+    <li>Hakiki Taarifa zako</li>
+    <li>Submit</li>
+  </ol>
+
+  <!-- TABLE -->
+  <h2>Schedule</h2>
+  <table border="1">
+    <tr><th>Day</th><th>Activity</th></tr>
+    <tr><td>Mon</td><td>Class</td></tr>
+    <tr><td>Tue</td><td>Practice</td></tr>
+  </table>
+
+  <!-- ======== MEDIA ======== -->
+  <h2>Sample Media</h2>
+  <img src="https://via.placeholder.com/150" alt="Sample"><br>
+  <audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- FORM -->
+  <h2>Registration Form</h2>
+  <form action="#" method="post" autocomplete="on">
+    <!-- Details Muhimu -->
+    <input type="text" name="name" placeholder="Full Name" required><br><br>
+    <input type="email" name="email" placeholder="Email" required><br><br>
+    <input type="tel" name="phone" placeholder="+2557********" pattern="[0-9]{10}" required><br><br>
+    <input type="password" name="password" placeholder="Password" minlength="6" required><br><br>
+
+    <!-- Gender -->
+    <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" name="gender" value="male" required> Male
+      <input type="radio" name="gender" value="female" required> Female
+    </fieldset><br>
+
+    <!-- dropdown -->
+    <select name="course" required>
+      <option value="">--Select Course--</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="js">JavaScript</option>
+    </select><br><br>
+
+    <!-- Checkbox readonly -->
+    <label>
+      <input type="checkbox" checked readonly> Subscribe Newsletter
+    </label><br><br>
+
+    <!-- Maoni -->
+    <textarea name="comments" placeholder="Your comments..."></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <footer><p>&copy; 2025 by Kisiri</p></footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* Universal selector for consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header with ID selector */
+#header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Class selector */
+.title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+}
+
+/* Card sections demonstrating box model */
+.card {
+  background: white;
+  padding: 20px;           /* space inside border */
+  margin-bottom: 20px;     /* space outside border */
+  border: 2px solid #ccc;  /* border */
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+}
